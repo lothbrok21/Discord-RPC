@@ -2,7 +2,7 @@
 
 I use VS 2019.
 
-Episode 5 Choirock Offsets:
+Episode 5 Choirock Offsets:<br> 
 Level = 0x8655F8
 CharName = 0x868DBE
 MapID = 0x8666C4
