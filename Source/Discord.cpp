@@ -4,7 +4,7 @@
 
 static int64_t eptime = std::chrono::duration_cast<std::chrono::seconds>(std::chrono::system_clock::now().time_since_epoch()).count();
 
-const char* Web = "www.shaiyavendetta.com";
+const char* Web = "www.yourwebsite.com";
 const char* Logo = "logo";
 const char* CharName = NULL;
 int MapID = -1;
@@ -201,20 +201,20 @@ void Initialize()
 {
     DiscordEventHandlers Handle;
     memset(&Handle, 0, sizeof(Handle));
-    Discord_Initialize("774244560444456980", &Handle, 1, NULL); //Your Api Key
+    Discord_Initialize("774244560444456980", &Handle, 1, NULL); // Your RPC Client ID
 }
 
 void Update()
 {
     DiscordRichPresence discordPresence;
     memset(&discordPresence, 0, sizeof(discordPresence));
-    discordPresence.state = getMapName(MapID);
-    discordPresence.details = CharName;
-    discordPresence.startTimestamp = eptime;
-    discordPresence.largeImageKey = Logo;
-    discordPresence.largeImageText = Web;
-    discordPresence.smallImageKey = getJob(Job);
-    discordPresence.smallImageText = getCharLevel(Level);
+    discordPresence.state = getMapName(MapID); // Map Name
+    discordPresence.details = CharName; // Char Name
+    discordPresence.startTimestamp = eptime; // Elapsed Time
+    discordPresence.largeImageKey = Logo; // Big Image
+    discordPresence.largeImageText = Web; // Big Image Text
+    discordPresence.smallImageKey = getJob(Job); // Small Image
+    discordPresence.smallImageText = getCharLevel(Level); // Small Image Text
     Discord_UpdatePresence(&discordPresence);
 }
 
