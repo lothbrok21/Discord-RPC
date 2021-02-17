@@ -1,15 +1,15 @@
 # Discord-RPC
 
-I use VS 2019.
+<b>I use VS 2019.</b>
 
 Episode 5 Choirock Offsets:<br> 
-Level = 0x8655F8
-CharName = 0x868DBE
-MapID = 0x8666C4
-Job = 0x867D92
+Level = 0x8655F8<br><br>
+CharName = 0x868DBE<br>
+MapID = 0x8666C4<br>
+Job = 0x867D92<br>
 
-Episode 6.4 Eric-Dutra Offsets:
-Level = 0x90D1E4
-CharName = 0x9144CE
-MapID = 0x90E2E0
-Job = 0x913473
+Episode 6.4 Eric-Dutra Offsets:<br>
+Level = 0x90D1E4<br>
+CharName = 0x9144CE<br>
+MapID = 0x90E2E0<br>
+Job = 0x913473<br>
