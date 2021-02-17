@@ -13,3 +13,6 @@ Level = 0x90D1E4<br>
 CharName = 0x9144CE<br>
 MapID = 0x90E2E0<br>
 Job = 0x913473<br>
+
+
+<a href="https://www.elitepvpers.com/forum/shaiya-pserver-guides-releases/4830584-release-discord-rpc.html">Elite PvP Back Link</a>
