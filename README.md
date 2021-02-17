@@ -1,6 +1,6 @@
 # Discord-RPC
 <b>Add your image whatever you want.</b><br>
-<b>Simple Tutorial For Create Discord RPC<b><br>
+<b>Simple Tutorial For Create Discord RPC</b><br>
 https://www.youtube.com/watch?v=SCS9inS-q6E&ab_channel=Gunther
 
 <b>I use VS 2019.</b>
