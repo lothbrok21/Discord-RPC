@@ -3,7 +3,7 @@
 <b>I use VS 2019.</b>
 
 <b>Episode 5 Choirock Offsets:</b><br>
-Level = 0x8655F8<br><br>
+Level = 0x8655F8<br>
 CharName = 0x868DBE<br>
 MapID = 0x8666C4<br>
 Job = 0x867D92<br>
