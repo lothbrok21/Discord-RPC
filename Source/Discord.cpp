@@ -8,7 +8,7 @@ const char* Web = "www.yourwebsite.com";
 const char* Logo = "logo";
 const char* CharName = NULL;
 int MapID = -1;
-int Level = NULL;
+int Level = 0;
 int Job = -1;
 
 
@@ -188,10 +188,16 @@ const char* getCharLevel(int Level) {
 
 void Data() {
     Level = (int)*reinterpret_cast<short*>(0x8655F8);
-    if (Level != NULL) {
+    if (Level != 0) {
         CharName = reinterpret_cast<char*>(0x868DBE);
         MapID = (int)*reinterpret_cast<short*>(0x8666C4);
         Job = (int)*reinterpret_cast<short*>(0x867D92);
+    }
+    else
+    {
+        CharName = "Character Select Screen";
+        MapID = -1;
+        Job = -1;
     }
 }
 
