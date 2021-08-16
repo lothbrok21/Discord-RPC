@@ -5,7 +5,7 @@ https://www.youtube.com/watch?v=SCS9inS-q6E&ab_channel=Gunther
 
 <b>I use VS 2019.</b>
 
-<b>Episode 5 Choirock Offsets:</b><br>
+<b>Episode 5 US ps0192-29-8-2012-game.exe  Offsets:</b><br>
 Level = 0x8655F8<br>
 CharName = 0x868DBE<br>
 MapID = 0x8666C4<br>
