@@ -2,7 +2,7 @@
 [Create Discord Application]</br>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=_lF0cPcIr90
 " target="_blank"><img src="http://img.youtube.com/vi/_lF0cPcIr90/0.jpg" 
-alt="YOUTUBE VIDEO WILL COMING SOON!" width="240" height="180" border="10" /></a>
+alt="Video" width="480" height="360" border="10" /></a>
 
 ### Offsets
 Game | Level | CharName | MapID | Job
