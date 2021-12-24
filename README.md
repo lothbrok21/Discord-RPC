@@ -1,9 +1,8 @@
 # Discord-RPC
-<b>Add your image whatever you want.</b><br>
-<b>Simple Tutorial For Create Discord RPC</b><br>
+[Create Discord Application]
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=SCS9inS-q6E&ab
 " target="_blank"><img src="http://img.youtube.com/vi/SCS9inS-q6E&ab/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+alt="YOUTUBE VIDEO WILL COMING SOON!" width="240" height="180" border="10" /></a>
 
 ### Offsets
 Game | Level | CharName | MapID | Job
@@ -17,4 +16,5 @@ Game | Level | CharName | MapID | Job
 [ElitePvP]
 
 [Visual Studio]:https://visualstudio.microsoft.com
+[Create Discord Application]:https://discord.com/developers/applications
 [ElitePvP]:https://www.elitepvpers.com/forum/shaiya-pserver-guides-releases/4830584-release-discord-rpc.html
