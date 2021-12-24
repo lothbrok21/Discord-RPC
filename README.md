@@ -1,5 +1,6 @@
 # Discord-RPC
-[Create Discord Application]</br>
+[Create Discord Application]
+### Video
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=_lF0cPcIr90
 " target="_blank"><img src="http://img.youtube.com/vi/_lF0cPcIr90/0.jpg" 
 alt="Video" width="480" height="360" border="10" /></a>
