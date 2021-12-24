@@ -1,21 +1,20 @@
 # Discord-RPC
 <b>Add your image whatever you want.</b><br>
 <b>Simple Tutorial For Create Discord RPC</b><br>
-https://www.youtube.com/watch?v=SCS9inS-q6E&ab_channel=Gunther
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=SCS9inS-q6E&ab
+" target="_blank"><img src="http://img.youtube.com/vi/SCS9inS-q6E&ab/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
-<b>I use VS 2019.</b>
+### Offsets
+Game | Level | CharName | MapID | Job
+--- | --- | --- | --- | ---
+**Episode 5 US ps0192-29-8-2012-game.exe** | `0x90D1E4` | `0x9144CE` | `0x90E2E0`| `0x913473`
+**Episode 6.4 Eric-Dutra's game.exe** | `0x90D1E4` | `0x9144CE` | `0x90E2E0`| `0x913473`
 
-<b>Episode 5 US ps0192-29-8-2012-game.exe  Offsets:</b><br>
-Level = 0x8655F8<br>
-CharName = 0x868DBE<br>
-MapID = 0x8666C4<br>
-Job = 0x867D92<br>
+## Building
+- This project is built with [Visual Studio].
+###### Backlink
+[ElitePvP]
 
-<b>Episode 6.4 Eric-Dutra Offsets:</b><br>
-Level = 0x90D1E4<br>
-CharName = 0x9144CE<br>
-MapID = 0x90E2E0<br>
-Job = 0x913473<br>
-
-
-<a href="https://www.elitepvpers.com/forum/shaiya-pserver-guides-releases/4830584-release-discord-rpc.html">Elite PvP Back Link</a>
+[Visual Studio]:https://visualstudio.microsoft.com
+[ElitePvP]:https://www.elitepvpers.com/forum/shaiya-pserver-guides-releases/4830584-release-discord-rpc.html
