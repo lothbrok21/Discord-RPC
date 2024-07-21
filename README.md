@@ -1,21 +1,55 @@
-# Discord-RPC
-[Create Discord Application]
-### Video
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=_lF0cPcIr90
-" target="_blank"><img src="http://img.youtube.com/vi/_lF0cPcIr90/0.jpg" 
-alt="Video" width="480" height="360" border="10" /></a>
+# 🎮 Discord Rich Presence (RPC) for C++ 🎮
 
-### Offsets
-Game | Level | CharName | MapID | Job
---- | --- | --- | --- | ---
-**Episode 5 US ps0192-29-8-2012-game.exe** | `0x8655F8` | `0x868DBE` | `0x8666C4`| `0x867D92`
-**Episode 6.4 Eric-Dutra's game.exe** | `0x90D1E4` | `0x9144CE` | `0x90E2E0`| `0x913473`
+## 📚 About
 
-## Building
-- This project is built with [Visual Studio].
-###### Backlink
-[ElitePvP]
+Discord Rich Presence (RPC) allows you to display detailed information about your game or application on your Discord profile. This project provides a C++ DLL implementation for integrating Discord RPC.
 
-[Visual Studio]:https://visualstudio.microsoft.com
-[Create Discord Application]:https://discord.com/developers/applications
-[ElitePvP]:https://www.elitepvpers.com/forum/shaiya-pserver-guides-releases/4830584-release-discord-rpc.html
+## 🚀 Features
+
+- 🎯 Real-time status updates
+- 📊 Display game or application details
+- 🕹️ Show in-game progress
+- 📅 Start events and send invites
+
+## 🛠️ Setup
+
+### Prerequisites
+
+- Visual Studio (2019 or later)
+- Discord Developer account
+
+### 1. Uploading Images to Discord Application
+
+1. **Create a Discord Application**:
+    - Go to the [Discord Developer Portal](https://discord.com/developers/applications).
+    - Click on `New Application` and give your application a name.
+
+2. **Navigate to Rich Presence**:
+    - Select your application.
+    - Go to the `Rich Presence` section on the left menu.
+
+3. **Upload Images**:
+    - Scroll down to the `Rich Presence Assets` section.
+    - Upload your images (e.g., large and small icons).
+    - Note the key names you give to these images as you will use them in your code.
+
+### 2. Compiling the C++ DLL in Visual Studio
+
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/lothbrok21/Discord-RPC.git
+    cd Discord-RPC
+    ```
+
+2. **Open the Project in Visual Studio**:
+    - Open Visual Studio.
+    - Go to `File` -> `Open` -> `Project/Solution`.
+    - Navigate to the cloned repository folder and select the `.sln` file.
+
+3. **Configure the Project**:
+    - Right-click on your project in the `Solution Explorer` and select `Properties`.
+    - Configure the project settings to match your needs (e.g., target platform, include directories, library directories).
+
+4. **Add Source Files**:
+    - Ensure all necessary source files and headers from the repository are included in your Visual Studio project.
+    - Set up the include directories for Discord RPC headers and link against the Discord RPC
