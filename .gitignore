@@ -32,6 +32,8 @@
 *.app
 
 .vs
+packages
+Release
 discord-rpc/Release
 discord-rpc/x64
 game/Release
